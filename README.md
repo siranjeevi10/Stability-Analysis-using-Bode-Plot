@@ -16,14 +16,30 @@ Computer with MATLAB software
 	Determine the gain crossover frequency, phase cross over frequency, gain margin and phase margin.
 	Also determine the stability.
 
-## Program: 
+## Program:
+num=1
+den=[0.05 0.6 1 0]
+sys=tf(num,den)
+bode(sys)
+grid on
+[Gm Pm Wpc Wgc]=margin(sys)
+if(Wpc>Wgc)
+    disp('stable')
+elseif(Wpc == Wgc)
+    disp('marginally stable')
+else
+    disp('unstable')
+end
 
 ## Output:
+<img width="707" height="630" alt="image" src="https://github.com/user-attachments/assets/bf63c822-3aeb-44d7-8164-b22e3ff4700a" />
+
 
 ## Result:
-Thus the bode plot for the given transfer function was drawn and verified using MATLAB. <br>
-Gain margin = <br>
-Phase Margin = <br>
-Gain crossover frequency = <br>
-Phase crossover frequency = <br>
-The system is  ------------
+Thus the bode plot for the given transfer function was drawn and verified using MATLAB.
+Gain margin = 12
+Phase Margin = 60
+Gain crossover frequency = 0.907
+Phase crossover frequency = 4.4721
+The system is stable.
+
