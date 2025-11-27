@@ -8,7 +8,9 @@ Computer with MATLAB software
 
 ## Theory:
 
-
+![WhatsApp Image 2025-11-27 at 18 27 03_911cb09c](https://github.com/user-attachments/assets/977875e4-a319-4ba5-9e79-d0d03ef44dfb)
+![WhatsApp Image 2025-11-27 at 18 27 02_2b8b6437](https://github.com/user-attachments/assets/f8fd972c-829a-44ae-a1ef-1c69edb92b4b)
+![WhatsApp Image 2025-11-27 at 18 27 02_d6d22b0f](https://github.com/user-attachments/assets/214724ec-d3c2-4e40-bfce-7b3417d208d6)
 
 ## Procedure:
 	Open MATLAB software
